@@ -16,7 +16,7 @@ async function sendMail(to: string, content: string, contentType: 'html'|'text' 
   try {
     let infoObj = {
         from: process.env.SMPT_FROM_EMAIL, // sender address
-        to: 'prashantkumarbarman@gmail.com', // list of receivers
+        to: to, // list of receivers
         subject: subject, // Subject line
         html: contentType === 'html' ? content : null,
         text: contentType === 'text' ? content : null
