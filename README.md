@@ -1,9 +1,9 @@
 ## How to run the project
 
-- Project is written using Nodejs with Typescript, and Mongodb database, Mongoose ODM is used for interacting with Mongodb
+- Project is written using `Nodejs` with `Typescript`, and `Mongodb` database, `Mongoose` ODM is used for interacting with Mongodb
 
 ### Steps
-- Folder named `kilowatt` contains Mongodb database dump, the dump is created using mongodump tool, so you can use mongorestore tool for importing the database, the database name is `kilowatt`
+- Folder named `kilowatt` contains Mongodb database dump, the dump is created using `mongodump` tool, so you can use mongorestore tool for importing the database, the database name is `kilowatt`
 - You can use `mongorestore --uri="mongodb://user@mongodb1.example.net:27017/?authSource=admin" /put_the_path_to_kilowatt_folder_here`, to import the database, replace uri with your Mongodb uri
 - Import file named `Kilowatt.postman_collection.json`(postman collection) into Postman
 - `src` folder contains Typescript source files
